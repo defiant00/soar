@@ -47,28 +47,12 @@ ___x_   '       ___x_   -       __x__   =       ____x   /       ____x   \
 ___x_           _____           _____           ____x           _____
 
 _____           _____           _____           _____
-x____   L4      _x___   L3      __x__   L2      ___x_   L1
+x____   L4      _x___   L2      __x__   L1      ___x_   L3
 _____           _____           _____           _____
     x_              x_              x_              x_
 ```
 
-Numbers (L1)
-```
-_       7       8       9       _
-_       4       5       6       L0
-0       1       2       3       _
-                                _       _
-```
-
-Functions (L2)
-```
-f1      f2      f3      f4      _
-f5      f6      f7      f8      L0
-f9      f10     f11     f12     _
-                                _       _
-```
-
-Nav (L3)
+Nav (L1)
 ```
 pgup    home    up      end     _
 pgdn    left    down    right   L0
@@ -76,10 +60,26 @@ _       _       _       _       _
                                 _       _
 ```
 
-Mouse (L4)
+Mouse (L2)
 ```
 msu     m2      mu      m1      _
 msd     ml      md      mr      L0
 _       _       _       _       _
+                                _       _
+```
+
+Numbers (L3)
+```
+_       7       8       9       _
+_       4       5       6       L0
+0       1       2       3       _
+                                _       _
+```
+
+Functions (L4)
+```
+f1      f2      f3      f4      _
+f5      f6      f7      f8      L0
+f9      f10     f11     f12     _
                                 _       _
 ```
