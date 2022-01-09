@@ -78,8 +78,8 @@ _       4       5       6       L0
 
 Functions (L4)
 ```
-f1      f2      f3      f4      _
-f5      f6      f7      f8      L0
 f9      f10     f11     f12     _
+f5      f6      f7      f8      L0
+f1      f2      f3      f4      _
                                 _       _
 ```
