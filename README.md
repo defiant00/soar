@@ -6,80 +6,59 @@ One-handed chorded keyboard layout.
 * In order of preference:
     1. Home row
     2. Chorded home row
-    3. Keys
-    4. Chords
+    3. Keys outside of the home row
+    4. Other chords
     5. Layers
 * Chords should be on the same row or column
-    * Pivoting around the index or pinky finger to other rows can also work
+    * Pivoting around the index or pinky finger to other rows also works
 
+---
 
 ## Layout (Left Hand)
 
-Base (L0)
-```
-q   w   f   p   b
-a   o   e   t   m
-g   y   c   u   v
-                bs  ⍽:sh
+### Base (L0)
 
-_____           _____           _____           _____           _____
-__xx_   n       _xx__   i       xx___   s       _xxx_   r       xxx__   l
-_____           _____           _____           _____           _____
+![Base](/images/base.png)
+Chord | Action | Chord | Action | Chord | Action
+--- | --- | --- | --- | --- | ---
+![d](/images/d.png) | D | ![comma](/images/comma.png) | , | ![enter](/images/enter.png) | Enter
+![h](/images/h.png) | H | ![period](/images/period.png) | . | ![tab](/images/tab.png) | Tab
+![i](/images/i.png) | I | ![semicolon](/images/semicolon.png) | ; | ![ctrl](/images/ctrl.png) | Control
+![j](/images/j.png) | J | ![apos](/images/apos.png) | ' | ![alt](/images/alt.png) | Alt
+![k](/images/k.png) | K | ![left bracket](/images/lbracket.png) | [ | ![gui](/images/gui.png) | Gui
+![l](/images/l.png) | L | ![right bracket](/images/rbracket.png) | ] | ![escape](/images/esc.png) | Escape
+![n](/images/n.png) | N | ![minus](/images/minus.png) | - | ![del](/images/del.png) | Delete
+![r](/images/r.png) | R | ![equals](/images/equals.png) | = | ![layer 3](/images/l3.png) | To Numbers (L3)
+![s](/images/s.png) | S | ![slash](/images/slash.png) | / | ![layer 1](/images/l1.png) | To Nav (L1)
+![x](/images/x.png) | X | ![backslash](/images/backslash.png) | \ | ![layer 2](/images/l2.png) | To Mouse (L2)
+![z](/images/z.png) | Z | ![grave](/images/grave.png) | ` | ![layer 4](/images/l4.png) | To Functions (L4)
 
-_____           _____           _____           _____           _____
-_x_x_   h       x_x__   d       x__x_   ctl     xxxx_   ⮠       x___x   gui
-_____           _____           _____           _____           _____
+Chord | Action
+--- | ---
+![shift](/images/shift.png) | Tap for space, hold for shift. Add to any chord to produce a shifted version of that chord.
+![lock](/images/lock.png) | Backspace. Add to any modifier (shift, control, alt, or gui) to lock or unlock the modifier.
 
-_____           xx___           _xx__           xxx__           _____
-x____   alt     _____   esc     _____   k       _____   `       ___x_   ;
-___x_           _____           _____           _____           x____
+### Nav (L1)
 
-_____           _____           _____           _____           _____
-_____   z       _____   .       _____   ,       _____   x       _____   j
-xx___           _xx__           __xx_           _xxx_           xxx__
+![Nav](/images/nav.png)
 
-_____           _____           _x___           __x__
-_____   tab     _____   del     ___x_   [       ___x_   ]
-x__x_           xxxx_           _____           _____
+### Mouse (L2)
 
-_____           ___x_           __x__           _____           ____x
-___x_   '       ___x_   -       __x__   =       ____x   /       ____x   \
-___x_           _____           _____           ____x           _____
+![Mouse](/images/mouse.png)
 
-_____           _____           _____           _____
-x____   L4      _x___   L2      __x__   L1      ___x_   L3
-_____           _____           _____           _____
-    x_              x_              x_              x_
-```
+### Numbers (L3)
 
-Nav (L1)
-```
-pgup    home    up      end     _
-pgdn    left    down    right   L0
-_       _       _       _       _
-                                _       _
-```
+![Numbers](/images/numbers.png)
 
-Mouse (L2)
-```
-msu     m2      mu      m1      _
-msd     ml      md      mr      L0
-_       _       _       _       _
-                                _       _
-```
+### Functions (L4)
 
-Numbers (L3)
-```
-_       7       8       9       _
-_       4       5       6       L0
-0       1       2       3       _
-                                _       _
-```
+![Functions](/images/functions.png)
 
-Functions (L4)
-```
-f9      f10     f11     f12     _
-f5      f6      f7      f8      L0
-f1      f2      f3      f4      _
-                                _       _
-```
+---
+
+## Release Notes
+
+### 0.1.0 [2022-01-00]
+
+* Added
+    * Initial version
