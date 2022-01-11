@@ -32,7 +32,7 @@ Chord | Action | Chord | Action | Chord | Action
 
 Chord | Action
 --- | ---
-![shift](/images/layer-shift.png) | Tap for `space`, hold for `shift`.
+![shift](/images/layer-shift.png) | Tap for `space`, hold for `shift`. Hold on the base layer for secondary characters.
 ![lock](/images/lock.png) | `Backspace`. Add to any modifier (`shift`, `control`, `alt`, or `gui`) to lock or unlock the modifier.
 
 ### Nav (L1)
