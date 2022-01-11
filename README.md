@@ -18,25 +18,22 @@ One-handed chorded keyboard layout.
 
 ### Base (L0)
 
-![Base](/images/base.png)
+![Base](/images/base.png) ![Secondary](/images/secondary.png)
+
 Chord | Action | Chord | Action | Chord | Action
 --- | --- | --- | --- | --- | ---
-![d](/images/d.png) | D | ![comma](/images/comma.png) | , | ![enter](/images/enter.png) | Enter
-![h](/images/h.png) | H | ![period](/images/period.png) | . | ![tab](/images/tab.png) | Tab
-![i](/images/i.png) | I | ![semicolon](/images/semicolon.png) | ; | ![ctrl](/images/ctrl.png) | Control
-![j](/images/j.png) | J | ![apos](/images/apos.png) | ' | ![alt](/images/alt.png) | Alt
-![k](/images/k.png) | K | ![left bracket](/images/lbracket.png) | [ | ![gui](/images/gui.png) | Gui
-![l](/images/l.png) | L | ![right bracket](/images/rbracket.png) | ] | ![escape](/images/esc.png) | Escape
-![n](/images/n.png) | N | ![minus](/images/minus.png) | - | ![del](/images/del.png) | Delete
-![r](/images/r.png) | R | ![equals](/images/equals.png) | = | ![layer 3](/images/l3.png) | To Numbers (L3)
-![s](/images/s.png) | S | ![slash](/images/slash.png) | / | ![layer 1](/images/l1.png) | To Nav (L1)
-![x](/images/x.png) | X | ![backslash](/images/backslash.png) | \ | ![layer 2](/images/l2.png) | To Mouse (L2)
-![z](/images/z.png) | Z | ![grave](/images/grave.png) | ` | ![layer 4](/images/l4.png) | To Functions (L4)
+![h](/images/h.png) | `H` | ![comma](/images/comma.png) | `,` or `<` | ![apos](/images/apos.png) | `'` or `"`
+![i](/images/i.png) | `I` | ![period](/images/period.png) | `.` or `>` | ![tab](/images/tab.png) | `Tab`
+![shift](/images/shift.png) | `Shift` | ![semicolon](/images/semicolon.png) | `;` or `:` | ![enter](/images/enter.png) | `Enter`
+![ctrl](/images/ctrl.png) | `Control` | ![slash](/images/slash.png) | `/` or `?` | ![l3](/images/l3.png) | `To Numbers (L3)`
+![alt](/images/alt.png) | `Alt` | ![backslash](/images/backslash.png) | `\` or `\|` | ![l1](/images/l1.png) | `To Nav (L1)`
+![gui](/images/gui.png) | `Gui` | ![left paren](/images/lparen.png) | `(` | ![l2](/images/l2.png) | `To Mouse (L2)`
+![delete](/images/del.png) | `Delete` | ![right paren](/images/rparen.png) | `)` | ![l4](/images/l4.png) | `To Functions (L4)`
 
 Chord | Action
 --- | ---
-![shift](/images/shift.png) | Tap for space, hold for shift. Add to any chord to produce a shifted version of that chord.
-![lock](/images/lock.png) | Backspace. Add to any modifier (shift, control, alt, or gui) to lock or unlock the modifier.
+![shift](/images/layer-shift.png) | Tap for `space`, hold for `shift` when on layers other than the base layer.
+![lock](/images/lock.png) | `Backspace`. Add to any modifier (`shift`, `control`, `alt`, or `gui`) to lock or unlock the modifier.
 
 ### Nav (L1)
 
@@ -58,7 +55,15 @@ Chord | Action
 
 ## Release Notes
 
-### 0.1.0 [2022-01-00]
+### 0.2.0 [2022-01-10]
+
+* Added
+    * Thumb hold as layer switch
+* Updated
+    * Simpler chords
+    * Numpad for better home row usage
+
+### 0.1.0 [2022-01-09]
 
 * Added
     * Initial version
